@@ -1,0 +1,4 @@
+1. Remove unused import statement for OS module
+2. Fix "NameError: name 'location1' is not defined" in line 7 by declaring location1 as "" before use
+3. Fix IndentationError: unexpected indent in line 9 (Remove overindentation)
+4. Remove case sensitivity for location by calling .title() on input statement in line 11
